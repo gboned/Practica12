@@ -21,6 +21,11 @@ html, body {
     margin: 50px auto;
     color: #FFFFFF;
 }
+/* Añado estilos del formulario para traerlo al frente */
+form {
+    z-index: 1;
+    position: relative;
+}
 /* Añado el estilo del div que contiene el formulario */
 .centrar-form {
     text-align: center;
