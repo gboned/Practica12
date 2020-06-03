@@ -5,3 +5,9 @@ html, body {
     margin: 0;
     height: 100%;
 }
+/* Añado el estilo de la cabecera, la fuente, el tamaño y que esté centrado */
+#cabecera {
+    font-family: 'Poiret One';
+    font-size: 200%;
+    text-align: center;
+}
