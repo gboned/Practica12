@@ -29,3 +29,8 @@ html, body {
 .centrar-form #texto-nombre {
     font-family: 'Carrois Gothic SC';
 }
+
+/* Añado el estilo del texto que hay dentro del input de nombre */
+#nombre {
+    font-family: 'Carrois Gothic SC';
+}
