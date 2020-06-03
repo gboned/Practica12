@@ -1,1 +1,6 @@
 @charset "UTF-8";
+html, body {
+    background: linear-gradient(to bottom, rgb(0, 0, 0), #564BD9);
+    margin: 0;
+    height: 100%;
+}
