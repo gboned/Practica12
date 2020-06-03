@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Añado el estilo del HTML y del body, el fondo, el margen y la altura */
 html, body {
     background: linear-gradient(to bottom, rgb(0, 0, 0), #564BD9);
     margin: 0;
