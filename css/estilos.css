@@ -5,10 +5,17 @@ html, body {
     margin: 0;
     height: 100%;
 }
-/* Añado el estilo de la cabecera, la fuente, el tamaño y que esté centrado */
+/* Añado el estilo de la cabecera, la fuente, el tamaño, que esté centrado y el margen */
 #cabecera {
     font-family: 'Poiret One';
     font-size: 200%;
+    text-align: center;
+    margin: 50px auto;
+}
+/* Añado el estilo de la segunda cabecera, la fuente, el tamaño, que esté centrado y el margen*/
+#cabecera-secundaria {
+    font-family: 'Poiret One';
+    font-size: 150%;
     text-align: center;
     margin: 50px auto;
 }
