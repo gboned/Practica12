@@ -19,3 +19,8 @@ html, body {
     text-align: center;
     margin: 50px auto;
 }
+/* Añado el estilo del div que contiene el formulario */
+.centrar-form {
+    text-align: center;
+    margin: 50px auto;
+}
