@@ -47,3 +47,11 @@ html, body {
 #dni {
     font-family: 'Carrois Gothic SC';
 }
+/* Añado el estilo para la imagen */
+#contenedor-imagen {
+    position: relative;
+    top: -150px;
+    height: 250px;
+    left: 10px;
+    z-index: 0;
+}
