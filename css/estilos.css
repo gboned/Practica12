@@ -34,3 +34,8 @@ html, body {
 #nombre {
     font-family: 'Carrois Gothic SC';
 }
+
+/* Añado el estilo del texto que va antes del input del dni */
+.centrar-form #texto-dni {
+    font-family: 'Carrois Gothic SC';
+}
