@@ -8,9 +8,10 @@ html, body {
 /* Añado el estilo de la cabecera, la fuente, el tamaño, que esté centrado y el margen */
 #cabecera {
     font-family: 'Poiret One';
-    font-size: 200%;
+    font-size: 250%;
     text-align: center;
-    margin: 50px auto;
+    margin: 100px auto;
+    color: #202020;
 }
 /* Añado el estilo de la segunda cabecera, la fuente, el tamaño, que esté centrado y el margen*/
 #cabecera-secundaria {
