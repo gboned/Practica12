@@ -23,7 +23,7 @@ html, body {
 .centrar-form {
     text-align: center;
     margin: 50px auto;
-    text-indent: -11%;
+    text-indent: -5%;
 }
 
 /* Añado el estilo del texto que va antes del input del nombre */
