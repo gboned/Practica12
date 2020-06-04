@@ -69,3 +69,11 @@ form {
     width: 100%;
     margin-top: 10px;
 }
+
+#dniCorrecto {
+    color: rgb(65, 211, 65);
+}
+
+#dniIncorrecto {
+    color: rgb(235, 28, 28);
+}
