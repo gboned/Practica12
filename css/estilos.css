@@ -11,7 +11,7 @@ html, body {
     font-size: 250%;
     text-align: center;
     margin: 100px auto;
-    color: #202020;
+    color: #000000;
 }
 /* Añado el estilo de la segunda cabecera, la fuente, el tamaño, que esté centrado y el margen*/
 #cabecera-secundaria {
@@ -36,6 +36,7 @@ form {
 /* Añado el estilo del texto que va antes del input del nombre */
 .centrar-form #texto-nombre {
     font-family: 'Carrois Gothic SC';
+    color: #000000;
 }
 
 /* Añado el estilo del texto que hay dentro del input de nombre */
@@ -46,6 +47,7 @@ form {
 /* Añado el estilo del texto que va antes del input del dni */
 .centrar-form #texto-dni {
     font-family: 'Carrois Gothic SC';
+    color: #000000;
 }
 
 /* Añado el estilo del texto que hay dentro del input de dni */
