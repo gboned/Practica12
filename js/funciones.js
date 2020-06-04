@@ -28,3 +28,15 @@ function obtenerLetraDni() {
     var letraDni = dni.substring(8);
     return letraDni;
 }
+
+// Creo una función que compruebe que la letra del DNI introducido sea la correcta para ese número.
+function comprobarDni(numeroDni, letraDni) {
+    var posicionLetraDni = numeroDni % 23;
+    // Letra a la cual correspondería el número de DNI.
+    var letraDniCorrecta = listaLetras[posicionLetraDni];
+    if (letraDni.toUpperCase() == letraDniCorrecta ) {
+        $("#texto-retorno").html("<p id='dniCorrecto'>El DNI " + obtenerNumeroDni() + obtenerLetraDni().toUpperCase() + " de " + obtenerNombre() + " es correcto.</p>");
+    } else {
+        $("#texto-retorno").html("<p id='dniIncorrecto'>El DNI " + obtenerNumeroDni() + obtenerLetraDni().toUpperCase() + " de " + obtenerNombre() + " es incorrecto.</p>");
+    }
+}
