@@ -40,3 +40,9 @@ function comprobarDni(numeroDni, letraDni) {
         $("#texto-retorno").html("<p id='dniIncorrecto'>El DNI " + obtenerNumeroDni() + obtenerLetraDni().toUpperCase() + " de " + obtenerNombre() + " es incorrecto.</p>");
     }
 }
+
+// Creo función que tenga lugar al darle al botón.
+$("form").submit(function(e) {
+    e.preventDefault();
+    comprobarDni(obtenerNumeroDni(), obtenerLetraDni());
+})
