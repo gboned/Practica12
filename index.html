@@ -88,10 +88,10 @@
 								<!-- Creo los diferentes recuadros, con un texto por defecto -->
 								<!-- El label añade un texto antes del recuadro que se indique -->
 								<label for="nombre" id="texto-nombre">INTRODUCIR NOMBRE:</label>
-								<input type="text" id="nombre" name="nombre" placeholder="Garbiñe" required>
+								<input type="text" id="nombre" name="nombre" placeholder="Garbiñe" pattern="[A-Za-z]{1,20}" title="Debe introducir un nombre, sin carácteres especiales" required>
 								<br><br>
 								<label for="dni" id="texto-dni">INTRODUCIR DNI:</label>
-								<input type="text" id="dni" name="dni" placeholder="47409403D" required>
+								<input type="text" id="dni" name="dni" placeholder="47409403D" pattern="[0-9]{8}[A-Za-z]{1}" title="Debe introducir 8 números y 1 letra" required>
 								<button id="iniciar">INICIAR</button>
 								<!-- Añado un contenedor donde se colocará el texto que se devuelva al darle al botón -->
 								<div id="texto-retorno">
