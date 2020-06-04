@@ -14,3 +14,10 @@ function obtenerNombre() {
     var nombre = $("#nombre").val();
     return nombre.toUpperCase();
 }
+
+// Creo una función que devolverá el número del DNI, quitándole la letra.
+function obtenerNumeroDni() {
+    var dni = $("#dni").val();
+    var numeroDni = dni.substring(0,8);
+    return numeroDni;
+}
