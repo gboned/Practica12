@@ -21,3 +21,10 @@ function obtenerNumeroDni() {
     var numeroDni = dni.substring(0,8);
     return numeroDni;
 }
+
+// Creo una función que devolverá únicamente la letra del DNI introducido.
+function obtenerLetraDni() {
+    var dni = $("#dni").val();
+    var letraDni = dni.substring(8);
+    return letraDni;
+}
